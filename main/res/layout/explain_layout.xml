@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:text="
+    Explanation Of Layouts and why they were used.
+
+    1.The main activity uses a TabLayout with viewPager , the viewPager holds the 3 tabs and allows navigation in the TabLayout.
+I used it to create 3 tabs in a single activity each containing a separate fragment.
+
+2.The images fragment layout uses a recyclerView with a custom Grid Layout. The recycler view was used as a large number of photos had to be displayed and
+it was combined with a custom Gridview to display the images in a grid fashion and manipulate their size to fit the grid item.
+
+3.The spinner layout only uses 2 spinners placed in the center.
+
+4.The movies layout also uses the custom made gridView used in images layout for displaying movie posters in 2 columns grid pattern.
+
+5.The movie detail layout contains a combination of linear layout with horizontal and vertical orientation and scrollView to position the title,poster,description,rating
+and realease date of the movie properly and also removes the chance of movie description getting cut off if it is too big with the help of its scrollview."/>
+    </ScrollView>
+</LinearLayout>
